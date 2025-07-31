@@ -1,0 +1,12 @@
+[package]
+name = "tcp_client"
+version = { workspace = true }
+edition = { workspace = true }
+description = "TCP client example for learning Rust"
+license = { workspace = true }
+repository = { workspace = true }
+readme = { workspace = true }
+homepage = { workspace = true }
+keywords = { workspace = true }
+
+[dependencies]
