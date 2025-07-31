@@ -1,6 +1,9 @@
 [workspace]
 resolver = "3"
-members = ["lrs/week_01"]
+members = [
+    "lrs/net/udp/client",
+    "lrs/net/udp/server",
+]
 
 [workspace.package]
 description = "learn rust"
