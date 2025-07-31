@@ -1,9 +1,10 @@
 [workspace]
 resolver = "3"
 members = [
-    "lrs/base/calc",
     "lrs/net/tcp/client",
     "lrs/net/tcp/server",
+    "lrs/net/udp/client",
+    "lrs/net/udp/server",
 ]
 
 [workspace.package]
