@@ -1,5 +1,5 @@
 [package]
-name = "week_01"
+name = "calc"
 description.workspace = true
 edition.workspace = true
 homepage.workspace = true
