@@ -1,0 +1,27 @@
+[workspace]
+resolver = "3"
+members = [
+    "lrs/base/calc",
+    "lrs/net/tcp/client",
+    "lrs/net/tcp/server",
+]
+
+[workspace.package]
+description = "learn rust"
+edition = "2024"
+homepage = ""
+categories = ["serde"]
+keywords = ["serde"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/pineconeforlanm/lrs.git"
+version = "0.1.0"
+
+[workspace.dependencies]
+
+
+[profile.bench]
+opt-level = 3
+
+[profile.test]
+opt-level = 0
